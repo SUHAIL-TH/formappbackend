@@ -19,6 +19,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/",formRouter)
 // app.use("/admin",adminRouter)
 app.listen(process.env.PORT, () => {
-    console.log("Server started listening ato port");
+    console.log("Server started listening to port");
   });
   
